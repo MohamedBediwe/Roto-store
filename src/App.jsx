@@ -1,7 +1,7 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 import {
-	HomeLayout,
+	Homelayout,
 	Landing,
 	Error,
 	Products,
@@ -41,7 +41,7 @@ const queryClient = new QueryClient({
 const router = createBrowserRouter([
 	{
 		path: "/",
-		element: <HomeLayout />,
+		element: <Homelayout />,
 		errorElement: <Error />,
 		children: [
 			{
