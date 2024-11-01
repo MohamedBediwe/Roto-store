@@ -10,7 +10,7 @@ import {
 	ApolloProvider,
 	// gql,
 } from "@apollo/client";
-import { client } from "./apolloClient";
+import { client } from "./ApolloClient";
 
 createRoot(document.getElementById("root")).render(
 	<Provider store={store}>
