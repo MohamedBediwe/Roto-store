@@ -1,4 +1,4 @@
-export { default as HomeLayout } from "./HomeLayout";
+export { default as Homelayout } from "./Homelayout";
 export { default as Landing } from "./Landing";
 export { default as SingleProduct } from "./SingleProduct";
 export { default as Products } from "./Products";
