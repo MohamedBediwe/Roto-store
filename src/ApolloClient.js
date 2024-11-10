@@ -1,6 +1,6 @@
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 
 export const client = new ApolloClient({
-	uri: "htts://roto-store.ct.ws/",
+	uri: "https://roto-store.ct.ws/",
 	cache: new InMemoryCache(),
 });
